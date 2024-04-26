@@ -4,7 +4,7 @@ NextFiber3D is a subproject that integrates Next.js with Fiber and 3D animations
 
 ## Live Demo
 
-Check out the live demo [here]([link_to_live_demo](https://react-fusion-next.vercel.app/)).
+Check out the live demo [here](https://react-fusion-next.vercel.app/).
 
 ## Features
 
