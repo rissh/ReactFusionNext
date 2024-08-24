@@ -1,0 +1,95 @@
+.sidebar {
+  background-color: #1a202c;
+  color: #f7fafc;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.logo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logo h2 {
+  font-size: 24px;
+  color: #edf2f7;
+}
+
+.nav {
+  flex-grow: 1;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar-item {
+  color: #a0aec0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #2d3748;
+  color: #edf2f7;
+}
+
+.size-6 {
+  width: 24px;
+  height: 24px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #2d3748;
+}
+
+.profile-pic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-left: 10px;
+}
+
+.profile-info h3 {
+  font-size: 18px;
+  color: #edf2f7;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #a0aec0;
+}
+
+/* Additional hover effects for the profile section */
+.profile:hover .profile-info h3,
+.profile:hover .profile-info p {
+  color: #edf2f7;
+}
+
+.profile:hover {
+  background-color: #2d3748;
+  border-radius: 8px;
+  padding: 10px;
+}
