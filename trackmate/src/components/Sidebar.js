@@ -135,7 +135,7 @@ const Sidebar = () => {
           />
         </div>
         <div className="profile-info">
-          <h3>John Doe</h3>
+          <h3>Little Monster</h3>
           <p>Admin</p>
         </div>
       </div>

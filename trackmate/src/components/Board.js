@@ -62,7 +62,7 @@ const Board = () => {
     <div className="board">
       <div className="addTask">
         <input
-          placeholder="add task here"
+          placeholder="Add task here"
           value={task.title}
           onChange={(e) => {
             setTask({
