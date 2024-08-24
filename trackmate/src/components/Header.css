@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937; /* Dark background to match the sidebar */
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+  font-size: 1.5rem;
+  color: #ffffff; /* White text for better contrast */
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.complete_sprint_button {
+  background-color: #3b82f6; /* Primary button color similar to sidebar */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.complete_sprint_button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
+
+.more_options {
+  background-color: transparent;
+  border: none;
+  color: #9ca3af; /* Gray color similar to sidebar icons */
+  font-size: 1.5rem;
+  cursor: pointer;
+}
