@@ -5,6 +5,7 @@ ReactFusionNext is a collection of React and Next.js projects showcasing innovat
 ## Subprojects
 
 - **NextFiber3D**: Integration of Next.js with Fiber and 3D animations from Sketchfab.
+- **TrackMate** is a task management application designed to help you organize and track tasks in a kanban-style board.
 
 ## Usage
 
